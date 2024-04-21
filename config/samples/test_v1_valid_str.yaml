@@ -1,0 +1,9 @@
+apiVersion: test.my.domain/v1
+kind: Test
+metadata:
+  labels:
+    app.kubernetes.io/name: controller-gen-validation
+    app.kubernetes.io/managed-by: kustomize
+  name: test-sample
+spec:
+  foo: "1"
